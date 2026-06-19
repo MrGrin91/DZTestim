@@ -6,7 +6,7 @@ public class JavaN6Dz {
         int k = 5;
 
         while (f<=9){
-            System.out.println(f * k);
+            System.out.println(f+" * "+k+" = "+(f * k));
             f = f+1;
 
         }
