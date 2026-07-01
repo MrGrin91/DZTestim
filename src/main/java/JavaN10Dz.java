@@ -6,12 +6,24 @@ public class JavaN10Dz {
         System.out.println("Введите число");
         Scanner scanner = new Scanner(System.in);
 
-        double x = scanner.nextDouble();
+        int x = scanner.nextInt();
+        double y;
 
-        double y = (Math.pow(x, 2) - 10) / (x + 7);
+        if (x >= 5) {
+            y = (double) (x * x - 10) / (x + 7);
+        }
+        else if (-3 < x && x < 5) {
 
+            y = (double) (x + 3) * (x * x - 2);
+        }
+        else {
+            y = 420;
+        }
         System.out.println(y);
-
-        scanner.close();
     }
 }
+//        double x = scanner.nextDouble();
+//
+//        double y = (Math.pow(x, 2) - 10) / (x + 7);
+
+
