@@ -19,6 +19,7 @@ public class JavaN12Dz {
             double result = dividend / divisor;
             System.out.println(result);
         }
+
         scanner.close();
     }
 }

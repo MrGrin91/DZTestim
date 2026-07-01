@@ -20,6 +20,7 @@ public class JavaN11Dz {
                 break;
             default:
                 System.out.println("Неизвестный город");
+
         }
     }
 }
