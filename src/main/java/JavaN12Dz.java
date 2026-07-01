@@ -10,15 +10,15 @@ public class JavaN12Dz {
 
             double dividend = scanner.nextDouble();
             double divisor = scanner.nextDouble();
-            double result = dividend / divisor;
-            System.out.println(result);
 
             if (divisor == 0) {
 
                 break;
 
             }
-            scanner.close();
+            double result = dividend / divisor;
+            System.out.println(result);
         }
+        scanner.close();
     }
 }
